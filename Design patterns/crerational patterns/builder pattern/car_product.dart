@@ -6,13 +6,13 @@ class carProduct extends IBuilder{
   @override
   carProduct(){
    }
-  void createBody() {
-    product.add('car body');
-    super.createBody();
+  void createBody(String body) {
+    product.add(body);
+    super.createBody(body);
   }
-  void createWheals() {
-    product.add('car wheal');
-    super.createBody();
+  void createWheals(String wheals) {
+    product.add(wheals);
+    super.createBody(wheals);
   }
   void getProduct(){
     product.show();

@@ -4,12 +4,12 @@ import 'vichel_product.dart';
 
 void main(){
     IBuilder car1 =new carProduct();
-  car1.createBody();
-  car1.createWheals();
+  car1.createBody('car body');
+  car1.createWheals('car wheals');
   car1.getProduct();
 
   IBuilder vich =new VichelProduct();
-   vich.createBody();
-  vich.createWheals();
+   vich.createBody('vichel body');
+  vich.createWheals('vidhel wheal');
   vich.getProduct();
 }
