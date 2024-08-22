@@ -1,5 +1,4 @@
 import 'proxy.dart';
-
 void main(){
 //  1- proxy pattern:
 SmsServiceProxy proxy = new SmsServiceProxy();

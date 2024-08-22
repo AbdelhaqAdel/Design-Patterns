@@ -1,4 +1,4 @@
-import '../../crerational patterns/singleton pattern/counter.dart';
+import '../../../crerational patterns/singleton pattern/counter.dart';
 import 'sms_service.dart';
 
 class SmsServiceProxy{
