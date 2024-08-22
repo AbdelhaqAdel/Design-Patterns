@@ -9,37 +9,30 @@ class SmsServiceProxy{
     // if (smsService==null){
     //     smsService=
     // }  
-
     //first call
     if(count!.GetCount()==0){
-            print('valls f${sendCount.values}');
+      print('valls f${sendCount.values}');
+      addSmsCounterToSendCount(custId);
+      print('valls f${count?.GetCount()}');
 
-     // count=counter.getInstance();
-      count?.addOne();
-      sendCount.
-      addAll({custId:count!.GetCount()});
-                  print('valls f${sendCount.values}');
 
     }else{
-                  print('valls ff${sendCount.values}');
-   // print(sendCount.keys);
-      count?.addOne();
-                  print('valls ff${sendCount.values}');
-
-      if(count!.GetCount == 3){
-                    print('valls fff${sendCount.values}');
-        return 'not sent';
-
+      print('counter count ${count?.GetCount()}');
+      // print('valls ff${sendCount.values}');
+      if((count?.GetCount()??0) >= 3){
+        //print('valls fff${sendCount.values}');
+        return 'can not sent';
       }else{
-        count?.addOne();
-                    print('valls ffff${sendCount.values}');
-
-        print(sendCount.values);
-       sendCount.addAll({custId:count!.GetCount()});
-
+        //print('valls ffff${sendCount.values}');
+        addSmsCounterToSendCount(custId);
       }
     }
     return smsService.SendSms(custId, mobile, sms);
+  }
+
+  void addSmsCounterToSendCount(String custId){
+      count?.addOne();
+      sendCount.addAll({custId:count?.GetCount()??100});
   }
 }
 
