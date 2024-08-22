@@ -11,23 +11,16 @@ class SmsServiceProxy{
     // }  
     //first call
     if(count!.GetCount()==0){
-      print('valls f${sendCount.values}');
       addSmsCounterToSendCount(custId);
-      print('valls f${count?.GetCount()}');
-
-
     }else{
-      print('counter count ${count?.GetCount()}');
-      // print('valls ff${sendCount.values}');
+      print('Service counter${count?.GetCount()}');
       if((count?.GetCount()??0) >= 3){
-        //print('valls fff${sendCount.values}');
         return 'can not sent';
       }else{
-        //print('valls ffff${sendCount.values}');
         addSmsCounterToSendCount(custId);
       }
     }
-    return smsService.SendSms(custId, mobile, sms);
+    return smsService.sendSms(custId, mobile, sms);
   }
 
   void addSmsCounterToSendCount(String custId){
