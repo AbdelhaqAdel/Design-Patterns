@@ -1,4 +1,0 @@
-enum SensorType{
-  NewTempType,
-  NewHumidityType,
-}
