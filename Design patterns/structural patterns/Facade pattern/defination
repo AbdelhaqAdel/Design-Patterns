@@ -1,0 +1,13 @@
+Facacde patter : (تبسيط لعمليه معقده)
+provide a unified interface to a set of interfaces in a subsystem.
+Facacde defines a higher-level interface that make subsystem easier to use.
+
+>> don not violate single responsbility 
+لانه بيعمل وظيفه واحده وهيا انى اجمع اكتر من وظيفه مرتبطه ببعض فى مكان واحد 
+
+>> Not similar to proxy pattern
+-It is not similar to the proxy pattern because in the proxy the user cannot manipulate or modify the objects 
+but in facade the user can manipulate all classes.
+
+-Proxy can change the logic of a specific process, but facade cannot.
+
