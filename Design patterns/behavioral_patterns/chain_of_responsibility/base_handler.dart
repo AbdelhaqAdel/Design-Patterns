@@ -1,4 +1,4 @@
-import 'chain_of_responsibility/jop_applicatoin.dart';
+import 'jop_applicatoin.dart';
 
 abstract class BaseHandler {
    BaseHandler? nextHandler;
