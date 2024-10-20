@@ -1,0 +1,17 @@
+
+The Chain of Responsibility pattern:
+
+ is a behavioral design pattern that allows an object to send a request through a chain of potential handlers.
+ Each handler in the chain can either process the request or pass it along to the next handler. 
+ This allows multiple objects to have the chance to handle the request without the sender needing to know which one will handle it.
+
+
+
+To implement the Chain of Responsibility pattern:
+
+1-Create a base handler interface or abstract class that defines a method for handling requests 
+and a reference to the next handler in the chain.
+
+2-Implement concrete handler classes that inherit from the base handler and provide specific request handling logic.
+
+3-Set up the chain by linking the handlers together in sequence, allowing a request to pass through the chain until it is handled 
