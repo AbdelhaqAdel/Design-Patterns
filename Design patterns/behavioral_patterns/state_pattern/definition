@@ -1,0 +1,16 @@
+Definition:
+
+The State Pattern allows an object to change its behavior when its internal state changes. It encapsulates state-specific behavior into separate classes, avoiding conditionals and making state transitions more flexible. Each state class defines its own behavior, and the object delegates tasks to the current state.
+
+
+Steps to Implement the State Pattern:
+
+1-Create a State Interface: Define an interface that declares methods representing behavior for various states.
+
+2-Implement Concrete States: Create classes for each state that implement the interface with state-specific behavior.
+
+3-Create a Context Class: Hold a reference to the current state and allow switching states dynamically.
+
+4-Delegate Behavior: The context class delegates requests to the current state, which handles the behavior based on its specific logic.
+
+5-Switch States at Runtime: Change the state object in response to events or conditions to modify the object's behavior.
