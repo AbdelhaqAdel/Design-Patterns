@@ -1,5 +1,5 @@
 import 'base_handler.dart';
-import 'jop_applicatoin.dart';
+import 'job_application.dart';
 
 class TechHandler extends BaseHandler {
   void toNext(JobApplication request) {
