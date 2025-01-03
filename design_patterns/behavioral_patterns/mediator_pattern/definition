@@ -1,0 +1,11 @@
+Definition: The Mediator Pattern is a behavioral design pattern that centralizes communication between objects, reducing direct dependencies and promoting loose coupling.
+It defines a mediator object that handles the interaction between multiple objects, making the system easier to maintain and scale.
+
+
+Example: Smart home system where different devices like an Alarm, Smart Window, Moving Robot, and Coffee Maker interact. Instead of each device communicating directly with every other device, a Mediator handles all communication.
+
+For instance, when the Alarm goes off, the Mediator coordinates actions: it opens the Smart Window, starts the Coffee Maker, and activates the Moving Robot. This centralization reduces dependencies between devices, making the system easier to maintain and extend.
+
+Let me know if you want the example further detailed!
+
+
