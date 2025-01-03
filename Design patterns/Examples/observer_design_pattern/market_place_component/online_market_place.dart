@@ -1,8 +1,8 @@
-import '../EvenetTypeEnum.dart';
+import '../evenet_type_enum.dart';
 import 'JobPosition.dart';
-import 'Offer.dart';
-import 'Product.dart';
-import '../Subscribers/Subscriber.dart';
+import 'offer.dart';
+import 'product.dart';
+import '../subscribers/Subscriber.dart';
 
 class OnlineMarketPlace{
   Map<EventType,List<Subscriber>>? _Subscribers;

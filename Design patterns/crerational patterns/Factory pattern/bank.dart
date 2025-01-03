@@ -1,3 +1,3 @@
 abstract class IBank{
-  void whithDrow();
+  void withDraw();
 } 

@@ -1,7 +1,7 @@
-import 'Devices/Applications.dart';
-import 'Sensors/SensorTypes.dart';
-import 'Sensors/humiditySensor.dart';
-import 'Sensors/temperatureSensor.dart';
+import 'devices/app.dart';
+import 'sensors/SensorTypes.dart';
+import 'sensors/humiditySensor.dart';
+import 'sensors/temperatureSensor.dart';
 
 class WeatherManager{
    Map<SensorType,List<App>>?_apps;

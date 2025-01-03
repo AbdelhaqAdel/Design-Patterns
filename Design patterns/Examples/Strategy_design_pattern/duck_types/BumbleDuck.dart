@@ -1,4 +1,4 @@
-import '../Duck.dart';
+import '../duck.dart';
 import '../Flying behavior/CanNotFly.dart';
 import '../Flying behavior/FlyBehavior.dart';
 import '../Quack Behavior/MuteQuack.dart';

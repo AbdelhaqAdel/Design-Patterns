@@ -4,11 +4,11 @@ class Counter{
  
   Counter._ (){}
   
-  //static counter instance=new counter._();  //كدا هخلى اول مالبرنامج يشتغل هعمل اوبجيكت بدون منا محتاجه
-  static Counter? instance; //عشان مخليش اوبجيكت يتعمل علطول
+  //static counter instance=new counter._();    // This way, I will create an object as soon as the program starts, even though I don't need it
+  static Counter? instance;
    
    static Counter? getInstance(){  //to get one instance from the class 
-    if (instance==null){instance=new Counter._();}  //lazy intialization
+    if (instance==null){instance=new Counter._();}  //lazy initialization
     return instance;
    }
   

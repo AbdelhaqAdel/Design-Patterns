@@ -1,13 +1,13 @@
  //-------------------Weather app -------------------------------------
 
- import 'Devices/Applications.dart';
-import 'Devices/DesktopDevice.dart';
-import 'Devices/MobileDevice.dart';
-import 'Devices/TapletDevice.dart';
-import 'Sensors/SensorTypes.dart';
-import 'Sensors/humiditySensor.dart';
-import 'Sensors/temperatureSensor.dart';
-import 'WeatherManager.dart';
+ import 'devices/app.dart';
+import 'devices/DesktopDevice.dart';
+import 'devices/MobileDevice.dart';
+import 'devices/tablet_device.dart';
+import 'sensors/SensorTypes.dart';
+import 'sensors/humiditySensor.dart';
+import 'sensors/temperatureSensor.dart';
+import 'weather_manager.dart';
 
 void main(){
 WeatherManager weatherManager=new WeatherManager();

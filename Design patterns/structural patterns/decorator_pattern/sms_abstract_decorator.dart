@@ -1,6 +1,6 @@
 //this abstract class to add the new feature (send notification to user) by inherite from SmsService class
 // to get send sms feature
-import '../proxy pattern/Sms sender/sms_service.dart';
+import '../proxy_pattern/sms_sender/sms_service.dart';
 
 abstract class SmsDecorator implements SmsService{
   SmsService? notificationDecorator;

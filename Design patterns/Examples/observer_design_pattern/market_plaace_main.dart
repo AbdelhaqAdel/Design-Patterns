@@ -1,11 +1,11 @@
-import 'EvenetTypeEnum.dart';
-import 'Market place component/JobPosition.dart';
-import 'Market place component/Offer.dart';
-import 'Market place component/OnlineMarketPlace.dart';
-import 'Market place component/Product.dart';
-import 'Subscribers/Customer.dart';
-import 'Subscribers/ShibingCompany.dart';
-import 'Subscribers/Subscriber.dart';
+import 'evenet_type_enum.dart';
+import 'market_place_component/JobPosition.dart';
+import 'market_place_component/offer.dart';
+import 'market_place_component/online_market_place.dart';
+import 'market_place_component/product.dart';
+import 'subscribers/customer.dart';
+import 'subscribers/shibing_company.dart';
+import 'subscribers/Subscriber.dart';
 
 void main(){
   
