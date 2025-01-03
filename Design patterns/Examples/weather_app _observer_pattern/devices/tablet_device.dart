@@ -1,4 +1,4 @@
-import 'Applications.dart';
+import 'app.dart';
 
 class TabletApp implements App{
   

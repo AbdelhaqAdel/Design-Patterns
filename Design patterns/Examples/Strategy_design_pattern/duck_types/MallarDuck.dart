@@ -1,6 +1,7 @@
-import '../Duck.dart';
 import '../Flying behavior/FlyBehavior.dart';
 import '../Flying behavior/FlyWithWings.dart';
+import '../duck.dart';
+
 import '../Quack Behavior/QuackBehavior.dart';
 import '../Quack Behavior/Squeck.dart';
 

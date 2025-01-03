@@ -1,4 +1,4 @@
-import 'employe.dart';
+import 'employee.dart';
 import 'machine_operator.dart';
 import 'salary_calc.dart';
 
@@ -13,6 +13,6 @@ void main(){
   MachineOperator operator=new MachineOperator();
   operator.opeName='OPERATOR';operator.basicSalary=1200;
 
-  result= calc.calcSalary(operator);     //here i make calcSalry able to get Machine operator type
+  result= calc.calcSalary(operator);     //here i make calcSalary able to get Machine operator type
   print('${operator.opeName} is $result');
 }

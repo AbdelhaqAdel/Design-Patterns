@@ -1,4 +1,4 @@
-import '../proxy pattern/Sms sender/sms_service.dart';
+import '../proxy_pattern/sms_sender/sms_service.dart';
 import 'sms_decorator_impl.dart';
 
 void main(){

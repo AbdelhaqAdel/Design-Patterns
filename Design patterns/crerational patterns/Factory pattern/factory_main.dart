@@ -10,6 +10,6 @@ IBank bank2=bankFactory.GetBank('11111');
 
 //bank.GetBank('12345888');
 //bank.GetBank('111112535');
-bank1.whithDrow();
-bank2.whithDrow();
+bank1.withDraw();
+bank2.withDraw();
 }

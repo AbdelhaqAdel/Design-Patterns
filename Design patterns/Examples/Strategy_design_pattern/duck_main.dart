@@ -1,6 +1,6 @@
-import 'Duck types/BumbleDuck.dart';
-import 'Duck types/MallarDuck.dart';
-import 'Duck.dart';
+import 'duck_types/BumbleDuck.dart';
+import 'duck_types/MallarDuck.dart';
+import 'duck.dart';
 //-------------strategy design pattern -----------------
 
 void main(){
