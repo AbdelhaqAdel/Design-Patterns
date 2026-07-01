@@ -7,7 +7,7 @@ void main(){
   c1?.addOne();
   c1?.addOne();
   c1?.addOne();
-  c1?.printCount();  //out put will be 4
+  c1?.printCount();  //output will be 4
   c2?.addOne();
-  c2?.printCount();  //out put will be 5 because c2 add one to the object c1  
+  c2?.printCount();  //output will be 5 because c2 add one to the object c1  
 }
